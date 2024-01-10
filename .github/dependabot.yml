@@ -11,6 +11,4 @@ updates:
       interval: "daily"
     allow:
       - dependency-type: "direct"
-        security: true
       - dependency-type: "indirect"
-        security: true
