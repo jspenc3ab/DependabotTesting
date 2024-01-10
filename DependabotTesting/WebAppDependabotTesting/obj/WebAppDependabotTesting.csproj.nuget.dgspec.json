@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\DependabotTesting\\WebAppDependabotTesting\\WebAppDependabotTesting.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\DependabotTesting\\WebAppDependabotTesting\\WebAppDependabotTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\DependabotTesting\\WebAppDependabotTesting\\WebAppDependabotTesting.csproj",
+        "projectName": "WebAppDependabotTesting",
+        "projectPath": "C:\\GitHub\\DependabotTesting\\WebAppDependabotTesting\\WebAppDependabotTesting.csproj",
+        "packagesPath": "C:\\Users\\jspenc3\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\DependabotTesting\\WebAppDependabotTesting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "\\\\ac2knyc0206\\Userdata\\jspenc3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://rapbuildserver:7432/guestAuth/app/nuget/feed/_Root/default/v3/index.json": {},
+          "http://rapnuget:44/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AB-RAP/_packaging/FI.ApiClients/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AB-RAP/_packaging/FI.Nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
