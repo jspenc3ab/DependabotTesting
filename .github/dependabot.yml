@@ -7,4 +7,7 @@ version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/" # Location of package manifests
-    schedule: "daily"
+    schedule:
+      interval: "daily"
+      time: "10:00"
+      day-of-week: "monday"
