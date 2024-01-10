@@ -9,4 +9,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "16:23"
+    allow:
+      - dependency-type: "direct"
+        security: true
+      - dependency-type: "indirect"
+        security: true
