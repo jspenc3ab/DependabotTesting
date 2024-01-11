@@ -12,6 +12,6 @@ updates:
       time: "17:08"
     allow:
       - dependency-name: "Microsoft.IdentityModel.JsonWebTokens"
-      - dependency-type: "indirect"
+      - dependency-type: "all"
     # Allow up to 10 open pull requests for nuget dependencies / default is 5 per repository
     open-pull-requests-limit: 10 
