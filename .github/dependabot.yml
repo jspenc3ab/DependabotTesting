@@ -6,9 +6,9 @@
 version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/DependabotTesting/DependabotTesting" # Location of package manifests 
     schedule:
       interval: "daily"
-      time: "16:15"
+      time: "16:27"
     # Allow up to 10 open pull requests for nuget dependencies / default is 5 per repository
     open-pull-requests-limit: 10 
