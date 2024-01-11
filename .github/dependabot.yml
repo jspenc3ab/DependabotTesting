@@ -7,9 +7,10 @@ version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/DependabotTesting/DependabotTesting" # Location of package manifests 
+    update_strategy: "widen" 
     schedule:
       interval: "daily"
-      time: "16:15"
+      time: "16:36"
     allow:
       - dependency-type: "direct"
       - dependency-type: "indirect"
