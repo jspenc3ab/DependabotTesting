@@ -10,7 +10,6 @@ updates:
     schedule:
       interval: "daily"
       time: "19:04"
-    versioning-strategy: widen  
     allow:
       - dependency-name: "Microsoft.IdentityModel.JsonWebTokens"
       - dependency-type: "all"
