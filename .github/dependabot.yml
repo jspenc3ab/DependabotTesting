@@ -9,7 +9,7 @@ updates:
     directory: "/DependabotTesting/DependabotTesting" # Location of package manifests 
     schedule:
       interval: "daily"
-      time: "17:08"
+      time: "18:29"
     allow:
       - dependency-name: "Microsoft.IdentityModel.JsonWebTokens"
       - dependency-type: "all"
