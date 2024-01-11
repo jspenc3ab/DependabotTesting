@@ -15,3 +15,4 @@ updates:
       - dependency-type: "all"
     # Allow up to 10 open pull requests for nuget dependencies / default is 5 per repository
     open-pull-requests-limit: 10 
+    version-strategy: "widen" 
