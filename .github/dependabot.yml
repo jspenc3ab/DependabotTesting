@@ -9,6 +9,9 @@ updates:
     directory: "/DependabotTesting/DependabotTesting" # Location of package manifests 
     schedule:
       interval: "daily"
-      time: "16:27"
+      time: "16:15"
+    allow:
+      - dependency-type: "direct"
+      - dependency-type: "indirect"
     # Allow up to 10 open pull requests for nuget dependencies / default is 5 per repository
     open-pull-requests-limit: 10 
