@@ -9,10 +9,10 @@ updates:
     directory: "/DependabotTesting/DependabotTesting" # Location of package manifests 
     schedule:
       interval: "daily"
-      time: "18:29"
+      time: "18:59"
     allow:
       - dependency-name: "Microsoft.IdentityModel.JsonWebTokens"
       - dependency-type: "all"
     # Allow up to 10 open pull requests for nuget dependencies / default is 5 per repository
     open-pull-requests-limit: 10 
-    version-strategy: "widen" 
+    versioning-strategy: "widen" 
