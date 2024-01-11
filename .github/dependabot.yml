@@ -10,9 +10,9 @@ updates:
     schedule:
       interval: "daily"
       time: "19:04"
+    versioning-strategy: widen  
     allow:
       - dependency-name: "Microsoft.IdentityModel.JsonWebTokens"
       - dependency-type: "all"
     # Allow up to 10 open pull requests for nuget dependencies / default is 5 per repository
     open-pull-requests-limit: 10 
-    versioning-strategy: widen
